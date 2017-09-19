@@ -29,5 +29,5 @@ def playChess():
   else:
     move = "It is black's turn. What is your move?"
     
-  validNormalMove = len()  
+  validNormalMove = (len(3) or len (4)) and
   
