@@ -1,7 +1,6 @@
-void generateBoard()
+void generateBoard(char pieces[][])
 {
   //Generates pieces for start of chess game.
-  global pieces[8][8]
   
   pieces = [['♜','♞','♝','♛','♚','♝','♞','♜'],
            ['♟','♟','♟','♟','♟','♟','♟','♟'],
