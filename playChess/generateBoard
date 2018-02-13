@@ -1,6 +1,7 @@
-def generateBoard():
-  #Generates pieces for start of chess game.
-  global pieces[][]
+void generateBoard()
+{
+  //Generates pieces for start of chess game.
+  global pieces[8][8]
   
   pieces = [['♜','♞','♝','♛','♚','♝','♞','♜'],
            ['♟','♟','♟','♟','♟','♟','♟','♟'],
@@ -10,5 +11,4 @@ def generateBoard():
            ['.','.','.','.','.','.','.','.'],
            ['♙','♙','♙','♙','♙','♙','♙','♙'],
            ['♖','♘','♗','♕','♔','♗','♘','♖']]
-           
-  
+}
